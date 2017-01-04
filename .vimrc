@@ -99,3 +99,10 @@ if has('autocmd')
   autocmd GUIEnter * set visualbell t_vb=
   endif
 
+" Map uppercase typo variations of W, Q, and WQ properly
+command! -bang -range=% -complete=file -nargs=* W <line1>,<line2>write<bang> <args>
+command! -bang Q quit<bang>
+command! Wq wq
+command! WQ wq
+
+set viminfo='20,<1000

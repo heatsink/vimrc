@@ -1,6 +1,7 @@
 Sean Wallace
 
 Here you will find my vim resources & .vimrc!
+My bash profile also lives here.
 Feel free to use it.
 
 COLOR SCHEME
